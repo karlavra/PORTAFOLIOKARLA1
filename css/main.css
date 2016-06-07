@@ -1,27 +1,33 @@
 * {
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box; }
 
 header {
   padding: 5px; }
-  header img {
-    width: 200px;
-    margin-top: 13px; }
+  header .nombre {
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: "VT323"; }
   header .navbar-default {
-    background-color: white;
-    border-color: white;
+    background-color: black;
+    border-color: whitesmoke;
     margin: auto; }
   header .navbar-collapse {
-    border-color: width; }
+    border-color: whitesmoke; }
   header .navbar-header {
     height: 60px; }
   header li {
     margin-top: 15px; }
     header li a {
-      font-size: 12px;
+      font-family: "VT323";
+      color: whitesmoke !important;
+      font-size: 20px;
       padding: 8px; }
-      header li a:hover, header li a:active {
-        background-color: black;
-        color: white; }
+      header li a:hover {
+        text-decoration: underline !important; }
+      header li a:active {
+        text-decoration: underline !important;
+        background-color: rgba(231, 231, 231, 0.69); }
 
 #home {
   background-image: url("../img/code.jpg");
@@ -32,7 +38,11 @@ header {
   padding: 30% 5% 25% 20%;
   background-attachment: fixed; }
   #home h1 {
-    font-size: 50px; }
+    font-size: 45px !important;
+    font-family: "VT323";
+    color: white;
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 10px; }
 
 #sobremi {
   background-image: url("../img/fondo.jpg");
@@ -53,8 +63,8 @@ header {
     margin: 10px 15px; }
   #sobremi .circle {
     margin: auto;
-    width: 235px;
-    height: 235px;
+    width: 230px;
+    height: 230px;
     border-radius: 100%; }
     #sobremi .circle img {
       border-radius: 100%;
@@ -68,29 +78,66 @@ header {
 .inner > .item > img {
   width: 100%; }
 
-.caja {
-  display: inline-block;
-  margin: 20px; }
-  .caja .fa {
-    font-size: 40px;
-    margin: 15px; }
-
 #skill {
-  background-color: black;
-  height: 290px;
-  color: white;
+  background-image: url("../img/100.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  color: WHITE;
   text-align: center;
-  padding: 2%; }
+  padding: 3%; }
+  #skill h2 {
+    background-color: rgba(0, 0, 0, 0.87);
+    DISPLAY: INLINE-BLOCK;
+    vertical-align: TOP;
+    PADDING: 10PX;
+    font-family: "VT323";
+    font-size: 40px; }
+  #skill .caja {
+    display: inline-block;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.88);
+    padding: 10px;
+    width: 200px; }
+    #skill .caja .fa {
+      font-size: 40px;
+      margin: 15px; }
+    #skill .caja p {
+      font-weight: bolder; }
 
 .firma {
   float: right;
   font-weight: bold; }
 
 #contacto {
-  padding: 5%; }
+  text-align: center;
+  background-image: url("../img/10.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 2%;
+  color: white; }
+  #contacto h2 {
+    font-family: "VT323";
+    color: white;
+    font-size: 60px; }
   #contacto .fa {
-    font-size: 50px;
-    color: black; }
+    font-size: 60px;
+    margin: 30px; }
+  #contacto .fa-linkedin {
+    color: #1985BC; }
+  #contacto .fa-github {
+    color: lemonchiffon; }
+  #contacto img {
+    width: 60px;
+    vertical-align: text-bottom;
+    margin: -3px 25px; }
+
+#portafolio {
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 2%;
+  font-family: "VT323"; }
 
 /*	 
 #frase{

@@ -1,19 +1,21 @@
 *{
 	font-family: 'Lato', sans-serif;
+	 box-sizing:border-box;
 }
 header{
 	padding:5px;
-	img{
-		    width: 200px;
-    		margin-top: 13px;
+	.nombre{
+		    font-size: 50px;
+    		color: whitesmoke;
+    		font-family: 'VT323', ;
 	}
 	.navbar-default{
-		background-color: white;
-	    border-color: white;
+		background-color: black;
+	    border-color: whitesmoke;
 	    margin: auto;
 	}
 	.navbar-collapse{
-		border-color:width;
+		border-color:whitesmoke;
 	}
 	.navbar-header{
 		height: 60px; 
@@ -21,15 +23,21 @@ header{
 	li{
 		margin-top: 15px;	
 		a{
-			font-size: 12px;
+			font-family: 'VT323', ;
+			color: whitesmoke !important;
+    		font-size: 20px;
 			padding:8px;
-			&:hover, &:active{
-				background-color: black;
-    			color: white;
+			&:hover{
+			    text-decoration: underline !important;
+			}
+			&:active{
+				text-decoration: underline !important;
+				 background-color: rgba(231, 231, 231, 0.69);
 			}
 			
 		}
 	 }
+
 }
 #home{
 	background-image: url("../img/code.jpg");
@@ -40,7 +48,11 @@ header{
     padding: 30% 5% 25% 20%;
     background-attachment: fixed;
     h1{
-    	font-size: 50px;
+    	font-size: 45px !important;
+	    font-family: "VT323";
+	    color: white;
+	    background-color: rgba(0, 0, 0, 0.45);
+	    padding: 10px;
     }
 }
 #sobremi{
@@ -69,8 +81,8 @@ header{
 	}
 	.circle{
 		margin:auto;
-		width: 235px;
-    height: 235px;
+		width: 230px;
+    height: 230px;
     border-radius: 100%;
 
     img{
@@ -89,31 +101,77 @@ header{
 
     width: 100%;
 }
-.caja{
-	display:inline-block;
-	margin: 20px;
+
+#skill{
+	 background-image: url("../img/100.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    color: WHITE;
+    text-align: center;
+    padding: 3%;
+    h2{
+    	background-color: rgba(0, 0, 0, 0.87);
+	    DISPLAY: INLINE-BLOCK;
+	    vertical-align: TOP;
+	    PADDING: 10PX;
+	    font-family: "VT323";
+	    font-size: 40px;
+    }
+    .caja{
+	display: inline-block;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.88);
+    padding: 10px;
+    width: 200px;
 	.fa{
 		font-size: 40px;
     	margin: 15px
 	}
+	p{
+		font-weight:bolder;
+	}
 }
-#skill{
-	background-color: black;
-    height: 290px;
-    color: white;
-    text-align: center;
-    padding: 2%;
+
 }
 .firma{
 	    float: right;
     font-weight: bold;
 }
 #contacto{
-	padding:5%;
-	.fa{
-		font-size: 50px;
-		color:black;
+	text-align:center;
+	background-image: url("../img/10.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	padding:2%;
+	color:white;
+	h2{
+		font-family: "VT323";
+	    color: white;
+	    font-size: 60px;
 	}
+	.fa{
+	font-size: 60px;
+    margin: 30px;
+	}
+	.fa-linkedin{
+		color: #1985BC;
+	}
+	.fa-github{
+		color: lemonchiffon;
+	}
+	img{
+	width: 60px;
+    vertical-align: text-bottom;
+    margin: -3px 25px;
+	}
+}
+#portafolio{
+	background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	padding:2%;
+	 font-family: "VT323";
 }
 
 /*	 
