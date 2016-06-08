@@ -6,7 +6,7 @@ header {
   padding: 5px; }
   header .nombre {
     font-size: 50px;
-    color: whitesmoke;
+    color: white;
     font-family: "VT323"; }
   header .navbar-default {
     background-color: black;
@@ -20,7 +20,7 @@ header {
     margin-top: 15px; }
     header li a {
       font-family: "VT323";
-      color: whitesmoke !important;
+      color: white !important;
       font-size: 20px;
       padding: 8px; }
       header li a:hover {
@@ -51,7 +51,7 @@ header {
     padding: 10px; }
 
 #sobremi {
-  background-color: whitesmoke;
+  background-color: white;
   padding: 5%; }
   #sobremi .frac {
     font-family: "VT323";
