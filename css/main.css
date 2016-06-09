@@ -41,12 +41,12 @@ header li {
   padding: 30% 0% 0% 0%;
   background-attachment: fixed; }
   #home .opaco {
-    background-color: rgba(0, 0, 0, 0.45); }
-  #home h1 {
+    background-color: rgba(0, 0, 0, 0.45);
     font-size: 45px !important;
     font-family: "VT323";
     color: white;
-    padding: 10px; }
+    padding: 10px;
+    width: 70%; }
 
 #sobremi {
   background-image: url("../img/222.png");
