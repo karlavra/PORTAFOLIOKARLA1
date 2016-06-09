@@ -60,70 +60,87 @@ header li {
     font-family: "VT323";
     font-size: 40px;
     text-align: right;
-    margin-top: 10%; }
+    margin-top: 10%;
+    color: black; }
   #sobremi .circle {
     background-color: black;
     padding: 5px;
     margin: auto;
-    width: 240px;
-    border-radius: 100%;
+    width: 270px;
     margin-bottom: 20px;
     margin-top: 20px; }
     #sobremi .circle img {
       border-radius: 100%;
       width: 100%; }
-  #sobremi .skill {
-    color: WHITE;
-    padding: 7% 0% 5%; }
-    #sobremi .skill .caja {
-      text-align: center;
-      background-color: black;
-      padding: 5%;
-      width: 100%;
-      margin-bottom: 20px; }
-      #sobremi .skill .caja .fa {
-        font-size: 40px;
-        margin: 15px; }
-      #sobremi .skill .caja p {
-        font-weight: bolder; }
   #sobremi .parrafo {
     text-align: center;
     width: 40%;
     margin: auto;
     font-size: 18px; }
+  #sobremi .abajo {
+    text-align: center;
+    font-size: 80px;
+    padding: 5%; }
+    #sobremi .abajo .fa {
+      color: black; }
+
+.skill {
+  color: WHITE;
+  padding: 7% 0% 5%; }
+  .skill .caja {
+    text-align: center;
+    background-color: black;
+    padding: 5%;
+    width: 100%;
+    margin-bottom: 20px; }
+    .skill .caja .fa {
+      font-size: 40px;
+      margin: 15px; }
+    .skill .caja p {
+      font-weight: bolder; }
 
 #contacto {
   text-align: center;
-  background-image: url("../img/contact.jpg");
+  background-image: url("../img/66666.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  color: white; }
+  background-size: cover;
+  color: black; }
   #contacto div {
-    background: rgba(0, 0, 0, 0.78);
     width: 100%;
     height: 100%;
     padding: 2%; }
   #contacto h2 {
     font-family: "VT323";
-    color: white;
-    font-size: 70px; }
+    color: black;
+    font-size: 85px;
+    font-weight: bolder; }
   #contacto .fa {
-    font-size: 65px;
-    margin: 30px; }
+    font-size: 75px;
+    margin: 35px; }
+    #contacto .fa:hover {
+      font-size: 85px; }
   #contacto .fa-linkedin {
     color: #1985BC; }
   #contacto .fa-github {
-    color: lemonchiffon; }
+    color: black; }
   #contacto img {
-    width: 65px;
+    width: 75px;
     vertical-align: text-bottom;
     margin: -8px 25px; }
+    #contacto img:hover {
+      width: 85px; }
 
 #portafolio {
-  background-image: url("../img/fondo.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
   padding: 2%;
-  font-family: "VT323"; }
+  text-align: center; }
+  #portafolio h2 {
+    font-family: "VT323";
+    font-size: 60px;
+    color: black; }
+
+.medio {
+  background-image: url("../img/4444.jpg");
+  background-size: CONTAIN;
+  height: 20px; }
 
 /*# sourceMappingURL=main.css.map */
