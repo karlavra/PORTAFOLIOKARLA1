@@ -1,8 +1,9 @@
+var texto = "< FRONT-END DEVELOPER >";
 function maquina(contenedor,texto,intervalo){
    // Calculamos la longitud del texto
    longitud = texto.length; 
    // Obtenemos referencia del div donde se va a alojar el texto.
-   cnt = document.getElementById(contenedor);
+   cnt = document.getElementById("maquinas");
    var i=0;
    // Creamos el timer
    timer = setInterval(function(){
@@ -21,8 +22,6 @@ function maquina(contenedor,texto,intervalo){
       }},intervalo);
 };
 
-var texto = "Sueña, Cree, Haz";
 // 100 es el intervalo de minisegundos en el que se escribirá cada letra.
 maquina("maquinas",texto,200);
-
 

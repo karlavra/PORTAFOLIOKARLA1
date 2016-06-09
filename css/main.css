@@ -9,8 +9,7 @@ header .nombre {
 header .navbar-default {
   background-color: black;
   border-color: transparent;
-  margin: auto;
-  padding-bottom: 10px; }
+  margin: auto; }
 header .navbar-collapse {
   border-color: white; }
 header .navbar-header {
@@ -55,7 +54,7 @@ header li {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: white;
-  padding: 8% 5%; }
+  padding: 8% 5% 6%; }
   #sobremi .frac {
     font-family: "VT323";
     font-size: 40px;
@@ -137,6 +136,12 @@ header li {
     font-family: "VT323";
     font-size: 60px;
     color: black; }
+  #portafolio .cajaporta {
+    margin: 20px;
+    border: 1px solid black;
+    padding: 5px; }
+    #portafolio .cajaporta img {
+      width: 100%; }
 
 .medio {
   background-image: url("../img/4444.jpg");
