@@ -130,18 +130,24 @@ header li {
       width: 85px; }
 
 #portafolio {
-  padding: 2%;
+  padding: 5% 0% 10%;
   text-align: center; }
   #portafolio h2 {
     font-family: "VT323";
     font-size: 60px;
-    color: black; }
+    color: black;
+    margin-bottom: 30px; }
   #portafolio .cajaporta {
-    margin: 20px;
+    margin: 30px 0px;
     border: 1px solid black;
     padding: 5px; }
     #portafolio .cajaporta img {
       width: 100%; }
+  #portafolio p {
+    font-size: 17px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px; }
 
 .medio {
   background-image: url("../img/4444.jpg");
